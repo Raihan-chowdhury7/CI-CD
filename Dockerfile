@@ -6,7 +6,7 @@ WORKDIR /app
 
 # RUN pip install -r requirements.txt
 
-COPY ..
+COPY  . .
 
 EXPOSE 80
 
